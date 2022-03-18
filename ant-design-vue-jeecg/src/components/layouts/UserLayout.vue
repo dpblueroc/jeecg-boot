@@ -4,25 +4,25 @@
       <div class="top">
         <div class="header">
           <a href="/">
-            <img src="~@/assets/logo.svg" class="logo" alt="logo">
-            <span class="title">Jeecg Boot</span>
+            <img src="~@/assets/jjlogo_words.svg" class="logo" alt="logo">
+            <span class="title">低代码开发平台</span>
           </a>
         </div>
         <div class="desc">
-          Jeecg Boot 是中国最具影响力的 企业级 低代码平台
+          四川大学锦江学院 计算机学院 低代码平台
         </div>
       </div>
 
       <route-view></route-view>
 
       <div class="footer">
-        <div class="links">
-          <a href="http://doc.jeecg.com" target="_blank">帮助</a>
-          <a href="https://github.com/zhangdaiscott/jeecg-boot" target="_blank">隐私</a>
-          <a href="https://github.com/zhangdaiscott/jeecg-boot/blob/master/LICENSE" target="_blank">条款</a>
-        </div>
+<!--        <div class="links">-->
+<!--          <a href="http://doc.jeecg.com" target="_blank">帮助</a>-->
+<!--          <a href="https://github.com/zhangdaiscott/jeecg-boot" target="_blank">隐私</a>-->
+<!--          <a href="https://github.com/zhangdaiscott/jeecg-boot/blob/master/LICENSE" target="_blank">条款</a>-->
+<!--        </div>-->
         <div class="copyright">
-          Copyright &copy; 2019 <a href="http://www.jeecg.com" target="_blank">JEECG开源社区</a> 出品
+          Copyright &copy; 2021 <a href="http://jsj.scujj.edu.cn/home/index.html" target="_blank">四川大学锦江学院计算机学院</a>
         </div>
       </div>
     </div>

@@ -318,8 +318,11 @@ public class JeecgDemoController extends JeecgController<JeecgDemo, IJeecgDemoSe
     }
 
     @GetMapping(value = "/hello")
-    public String hello(HttpServletRequest req) {
-        return "hello world!";
+    public Result<String> hello(HttpServletRequest req) {
+        Result<String> result = new Result<String>();
+        result.setResult("Hello World! 测试的用例");
+        result.setSuccess(true);
+        return result;
     }
 
 }
