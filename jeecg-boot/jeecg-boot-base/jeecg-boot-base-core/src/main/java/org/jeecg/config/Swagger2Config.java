@@ -103,14 +103,15 @@ public class Swagger2Config implements WebMvcConfigurer {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 // //大标题
-                .title("Jeecg-Boot 后台服务API接口文档")
+                .title("开发平台 后台服务API接口文档")
                 // 版本号
                 .version("1.0")
 //				.termsOfServiceUrl("NO terms of service")
                 // 描述
                 .description("后台API接口")
                 // 作者
-                .contact(new Contact("北京国炬信息技术有限公司","www.jeccg.com","jeecgos@163.com"))
+                .contact(new Contact("四川大学锦江学院计算机学院","jsj.scujj.edu.cn/home/index.html","02837600276"))
+                //.contact(new Contact("北京国炬信息技术有限公司","www.jeccg.com","jeecgos@163.com"))
                // .contact("JEECG团队")
                 .license("The Apache License, Version 2.0")
                 .licenseUrl("http://www.apache.org/licenses/LICENSE-2.0.html")
